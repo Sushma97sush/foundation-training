@@ -1,0 +1,86 @@
+MCQ'S
+1.Which of the following HTTP Status code means NOT MODIFIED, used to reduce network bandwidth usage in case of conditional GET requests?
+ans :  304
+
+2.Which header should be configured to tell the server XML is preferred over JSON?
+ans : Accept
+
+3.Which of the following is not an HTTP method?
+ans : CREATE
+
+4. SoapUI can be used to do
+ans : Only SOAP API testing
+
+
+5. In SoapUI properties are available at which level?
+ans : Project
+
+6. What is the hierarchy in SoapUI Projects?
+ans : Project > Test Suite > Test Case > Test Step 
+
+7.Which of the below element is used to check response validation
+ans :  Response assertion
+
+8.Which of the below is error code?
+ans : 404
+
+9.Which of the below tests is executed for extended no of hours 
+ans :  Load test
+
+10.Which of the following element is used to perform correlation?
+ans : Regular expression extractor
+
+11.Performance testing falls under which category?
+ans : Non functional testing
+
+Test cases
+
+1. Verify that the user is able to navigate or access the different controls by pressing the ‘Tab’ key on the keyboard.
+ans : Verify that clicking on the browser back button after successful logout should not take the User to a logged-in mode
+
+2.Check if the password is in masked form when typed in the password field.
+ans : "    Verify that there is a limit on the total number of unsuccessful login attempts
+ (No. of invalid attempts should be based on business logic. Based on the business logic, User will be asked to enter the captcha and try 
+again or user will be blocked)"
+
+3.Check if the password can be copy-pasted or not.
+ans : Verify that the password is in encrypted form (masked format) when entered in the password field.
+
+4.Verify that the user is able to login by entering valid credentials and clicking on the ‘Login’ button.
+ans : Verify the password can be copy-pasted. System shouldn’t allow users to copy paste password.
+
+5.Verify that the user is able to login by entering valid credentials and pressing Enter key.
+ans : Verify that encrypted characters in the “Password” field should not allow deciphering if copied
+
+6.Check that the user is not able to login with an invalid username and password.
+ans : Verify that the “Remember password” checkbox is unselected by default (depends on business logic, it may be selected or unselected)
+
+7.Verify that the validation message gets displayed in case the user leaves the username or password field as blank.
+ans : Verify whether the login form is revealing any security information by viewing the page source
+
+8.Check that the validation message is displayed in the case the user exceeds the character limit of the user name and password fields.
+ans : Verify that the login page is vulnerable to SQL injection.
+
+9.Verify that reset button functionality on the login page. Clicking on it should clear the textbox’s content.
+ans : Verify whether the user is still logged in after a series of actions such as sign-in, close the browser, and reopen the application.
+
+10.Verify if there is a checkbox with the label “remember password” on the login page.
+ans : verify that if we click on remember password it will show  popup message like never and save checkbox 
+
+11.Verify that closing the browser should not log-out an authenticated user. Launching the application should lead the user to login state only.
+ans : verify that login state if user didnot logout from the browser.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
